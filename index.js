@@ -31,11 +31,11 @@ function dec(a) {
 }
 
 function makeInt(a) {
-  number = parseInt(n, 10);
+  number = parseInt(a, 10);
   return number;
 }
 
 function preserveDecimal(a) {
-  number = parseFloat(n, 10);
+  number = parseFloat(a, 10);
   return number;
 }
