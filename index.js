@@ -1,33 +1,41 @@
-var a = Math.floor(Math.random() * 1000), b = Math.floor(Math.random() * 1000);
+var number;
 
 function add(a,b) {
-return a + b;
+  number = a + b;
+  return number;
 }
 
 function subtract(a,b) {
-return a - b;
+  number = a - b;
+  return number;
 }
 
 function multiply(a,b) {
-return a * b;
+  number = a * b;
+  return number;
 }
 
 function divide(a,b) {
-return a / b;
+  number = a / b;
+  return number;
 }
 
-function inc(n) {
-  n + 1;
+function inc(a) {
+  number = a + 1;
+  return number;
 }
 
-function dec(n) {
-  n - 1;
+function dec(a) {
+  number = a - 1;
+  return number;
 }
 
-function makeInt(n) {
-  return parseInt(n, 10);
+function makeInt(a) {
+  number = parseInt(n, 10);
+  return number;
 }
 
-function preserveDecimal(n) {
-  return parseFloat(n);
+function preserveDecimal(a) {
+  number = parseFloat(n, 10);
+  return number;
 }
